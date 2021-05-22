@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.w(MainActivity.class.getName(), "O usuário clicou no botão btn_erro");
             }
         });
-// TODO Acrescentar um log verbose, indicando que a Activity foi criada corretamente
+        Log.v(MainActivity.class.getName(), "A Activity foi criada corretamente");
     }
 }
