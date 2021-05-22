@@ -26,10 +26,13 @@
 
 <!-- TODO Reposicionar o botão para ficar acima do btn_ok -->
     <Button
+        android:id="@+id/btn_erro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_ok"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
         android:backgroundTint="#990000"
-        android:text="Ops!!"
-        android:id="@+id/btn_erro"/>
+        android:text="Ops!!" />
 
 </RelativeLayout>
