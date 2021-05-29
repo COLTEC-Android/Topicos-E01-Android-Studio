@@ -3,6 +3,7 @@ package br.ufmg.coltec.e01androidstudio;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -32,8 +33,10 @@ public class MainActivity extends AppCompatActivity {
                 t.setGravity(Gravity.TOP, 0, 0);
                 t.show();
 // TODO Acrescentar um log de warning, indicando que o usuário clicou neste botão
+                Log.w(MainActivity.class.getName(), "O usuário clicou no botão btn_erro");
             }
         });
 // TODO Acrescentar um log verbose, indicando que a Activity foi criada corretamente
+        Log.v(MainActivity.class.getName(), "A Activity foi criada corretamente");
     }
 }
