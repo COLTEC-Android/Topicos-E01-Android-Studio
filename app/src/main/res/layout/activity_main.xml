@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Olá jovens!"
-        android:textSize="10dp"
+        android:textSize="30dp"
         android:id="@+id/lbl_hello" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_erro"
         android:backgroundTint="#009900"
         android:text="Está tudo bem"
         android:id="@+id/btn_ok" />
@@ -28,8 +28,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:backgroundTint="#990000"
         android:text="Ops!!"
         android:id="@+id/btn_erro"/>
+
 
 </RelativeLayout>
